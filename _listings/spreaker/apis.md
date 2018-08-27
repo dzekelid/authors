@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Authors
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authors/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Spreaker API - GEt Shows By Author
+  x-api-slug: useruser-idshowsauthor-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authors/master/_listings/spreaker/useruser-idshowsauthor-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://spotify.api.gallery.streamdata.io

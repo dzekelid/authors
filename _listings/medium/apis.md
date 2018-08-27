@@ -8,11 +8,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Authors
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/authors/master/_listings/medium/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Medium.com - Create User Post
+  x-api-slug: usersauthoridposts-post
+  description: Creates a post on the authenticated user???s profile.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/medium-logo.png
+  humanURL: https://medium.com/
+  baseURL: https://api.medium.com//v1
+  tags: Blogging, Communications, Stack Network, Media, API Provider, API Service
+    Provider, SDIO Syndication, Profiles, General Data, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/authors/master/_listings/medium/usersauthoridposts-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://mattermost.api.gallery.streamdata.io

@@ -1,12 +1,12 @@
 ---
 swagger: "2.0"
-x-collection-name: NewsCred
+x-collection-name: Spreaker
 x-complete: 0
 info:
-  title: News Cred Author
-  description: Returns an author that has written content available via this API.
+  title: Spreaker API GEt Shows By Author
   version: v1
-host: api.newscred.com
+  description: ""
+host: api.spreaker.com
 basePath: /
 schemes:
 - http
@@ -15,20 +15,23 @@ produces:
 consumes:
 - application/json
 paths:
-  author/:
+  /user/{user_id}/shows/author:
     get:
-      summary: Author
-      description: Returns an author that has written content available via this API.
-      operationId: getAuthor
-      x-api-path-slug: author-get
+      summary: GEt Shows By Author
+      description: ""
+      operationId: getUserUserShowsAuthor
+      x-api-path-slug: useruser-idshowsauthor-get
       parameters:
-      - in: query
-        name: access_key
-        description: Unique API access key
+      - in: path
+        name: user_id
+        description: The user id
       responses:
         200:
           description: OK
       tags:
+      - Podcasts
+      - GEt
+      - Shows
       - Author
 x-streamrank:
   polling_total_time_average: 0
